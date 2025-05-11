@@ -5,27 +5,32 @@ import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './singer'
+import Counter from './Counter'
+import Users from './Users'
 
 function App() {
-  const actors=['mim','sakib','yash','OLi','Rohan','Joban']
-  const singers=[
-    {
-      id:1,name:"Kona",age:56
-    },
-    {
-      id:2,name:"Pritom",age:30
-    },
-    {
-      id:3,name:"Ayan",age:23
-    }
-  ]
+ 
+  // const actors=['mim','sakib','yash','OLi','Rohan','Joban']
+  // const singers=[
+  //   {
+  //     id:1,name:"Kona",age:56
+  //   },
+  //   {
+  //     id:2,name:"Pritom",age:30
+  //   },
+  //   {
+  //     id:3,name:"Ayan",age:23
+  //   }
+  // ]
 
   return (
     <>
     {/* list mapping */}
-    {
+    {/* {
       singers.map(singer=><Singer singer={singer}/>)
-    }
+    } */}
+     <Counter/>
+     <Users/>
 
     
     {/* <Actor></Actor>
